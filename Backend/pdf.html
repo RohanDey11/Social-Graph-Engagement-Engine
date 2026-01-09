@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PDF Report</title>
+  </head>
+  <body>
+    <h1>Posts</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Caption</th>
+          <th>Date</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for post in data %}
+          <tr>
+            <td>{{ post.title }}</td>
+            <td>{{ post.caption }}</td>
+            <td>{{ post.date }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </body>
+</html>
