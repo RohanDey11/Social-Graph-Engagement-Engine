@@ -18,10 +18,9 @@ https://drive.google.com/file/d/1FV6DqoJzXoUt_Aq0-f1cMjIWApY2sSiN/view?usp=shari
 
 - **Backend:** Python, Flask (REST API)
 - **Frontend:** Vue.js, Bootstrap
-- **Database:** SQLite (Development) / PostgreSQL (Production ready), SQLAlchemy ORM
+- **Database:** SQLite, SQLAlchemy
 - **Asynchronous Processing:** Celery
 - **Message Broker:** Redis
-- **Caching:** Redis
 
 ### System Workflow
 
@@ -68,3 +67,4 @@ https://drive.google.com/file/d/1FV6DqoJzXoUt_Aq0-f1cMjIWApY2sSiN/view?usp=shari
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
+
